@@ -1,0 +1,51 @@
+.mainbar{
+    background: var(--grayscale-white, #f3f1f1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    background: var(--grayscale-white, #f3f1f1);
+    padding: 30px 33px;
+    padding-top: 25px;
+
+    .right {
+        display: flex;
+        align-items: center;
+        .search{
+            stroke:#C5C7CD;
+            &:hover{
+                stroke:#a1a2a3;
+            }
+        }
+        .line {
+            margin: 0 32px;
+        }
+
+        .notification {
+            margin-left: 24px;
+            fill: #C5C7CD;
+            &:hover{
+                fill: #767677;
+            }
+
+        }
+   
+      
+
+
+        .jones {
+            /* Semibold 14 (0.2 px) */
+            font-family: Mulish;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px;
+            /* 142.857% */
+            letter-spacing: 0.2px;
+            margin-right: 5px;
+        }
+    }
+}
