@@ -1,7 +1,7 @@
 .saidbar {
 
     width: 255px;
-    height: 1085px;
+    height: 1200px;
     flex-shrink: 0;
     background: var(--sidebar-bg, #363740);
 }
@@ -29,6 +29,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.2px;
+   
 }
 
 .saidbar-btn {
@@ -59,8 +60,16 @@
             opacity: 1
         }
     }
+a{
+    text-decoration: none;
+}
 
-
+}
+.active{
+    background: #9fa2b42a;
+    color: #DDE2FF;
+    border-left: 1px solid #fff;
+    text-decoration: none;
 }
 
 // .liner{

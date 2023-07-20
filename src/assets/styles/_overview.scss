@@ -1,3 +1,7 @@
+.overview{
+    width: 1080px;
+}
+
 .ov__cards {
     display: flex;
     justify-content: space-between;
@@ -14,6 +18,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        transition: all ease 0.3s;
 
         .card__title {
             color: var(--grayscale-gray, #9FA2B4);
@@ -29,15 +34,21 @@
 
         .number {
             color: var(--grayscale-black, #252733);
-            text-align: center;
-
-            /* Bold 40 (1 px) */
             font-family: Mulish;
             font-size: 40px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
             letter-spacing: 1px;
+        }
+    }
+    .ov__card:hover{
+        border: 1px solid var(--accent-default, #3751FF );
+        .card__title {
+            color: var(--accent-default, #3751FF);
+        }
+        .number {
+            color: var(--accent-default, #3751FF);
         }
     }
 }
@@ -138,4 +149,8 @@
     align-items: center;
     margin: 0 32px;
     gap: 30px;
+
+    img{
+        width: 100%;
+    }
 }
