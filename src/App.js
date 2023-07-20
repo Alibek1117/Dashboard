@@ -15,7 +15,7 @@ import Settings from "./containers/Settings";
 import Subscription from "./containers/Subscription";
 
 function App() {
-  const [navName, setNavName] = useState('salom');
+  const [navName, setNavName] = useState('Overview');
   return (
     <div className="App container">
       <BrowserRouter>
